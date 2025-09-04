@@ -1,5 +1,5 @@
 import './App.css';
-import CitySelector from "./CitySelector"
+import CitySelector from "./components/CitySelector"
 
 function App() {
   return (

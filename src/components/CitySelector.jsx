@@ -49,7 +49,7 @@ const CitySelector = () => {
     }, [selectedCoutries, selectedStates]);
 
     return (
-        <div style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
+        <div style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", fontFamily: "Arial, sans-serif"}}>
             <h1>Select Location</h1>
             <div>
                 <select 

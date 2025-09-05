@@ -16,7 +16,7 @@ const CitySelector = () => {
             setCountries(response.data);
         })
         .catch((error) => {
-            console.log("error fectching countries: ", error);
+            console.error("error fectching countries: ", error);
         });
     }, []);
 
